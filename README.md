@@ -5,6 +5,11 @@
 
 ![Image of Simple CLI generating data for US States](https://res.cloudinary.com/dnguyen/image/upload/v1594246304/code-projects/Git/states_jonjcc.png)
 
+## Using Tool
+- `npm i` : Install dependencies first
+- `npm start` : Start CLI tool
+- Pick option for operation to do
+
 ## DONE
 - CLI tool basics
 - download zip by url
