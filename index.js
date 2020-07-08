@@ -5,6 +5,7 @@ const inquirer = require('inquirer')
 const { settingsOptions } = require('./constants')
 const { downloadZip } = require('./downloadZip')
 const { extractZip } = require('./extractZip')
+const { generateData } = require('./generateData')
 
 clear()
 
@@ -17,7 +18,7 @@ inquirer
             type: 'list',
             name: 'setting',
             message: 'What operation do you want to do?',
-            choices: [settingsOptions.downloadZip, settingsOptions.extractZip],
+            choices: [settingsOptions.downloadZip, settingsOptions.extractZip, settingsOptions.generateStateData],
         },
     ])
     .then(answer => {
@@ -26,6 +27,9 @@ inquirer
         }
         else if (answer.setting === settingsOptions.extractZip) {
             extractZip()
+        }
+        else if (answer.setting === settingsOptions.generateStateData) {
+            generateData()
         }
         else {
             console.log('else')
