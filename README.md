@@ -5,6 +5,10 @@
     - big datasets for a state had to be split to multiple views
 - Table of PPP loans < 150k : coming soon
 
+## SBA Download Issue
+- The downloadUrl in constants.js might not work because SBA refreshes download session or something
+- To fix this issue and get the right download link, go to the [SBA Download Link](https://sba.app.box.com/s/tvb0v5i57oa8gc6b5dcm9cyw7y2ms6pp), open a Developer Console and inspect the network when you click "Download" -that URL fetching the download is the one to replace for downloadUrl
+
 ![Image of Simple CLI Tool](https://res.cloudinary.com/dnguyen/image/upload/v1594193917/code-projects/Git/ppp-tool-image_brl15y.png)
 
 ![Image of Simple CLI generating data for US States](https://res.cloudinary.com/dnguyen/image/upload/v1594246304/code-projects/Git/states_jonjcc.png)
