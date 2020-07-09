@@ -5,5 +5,6 @@ exports.outputFile = "output.zip";
 exports.settingsOptions = {
     downloadZip: 'download PPP zip file from SBA',
     extractZip: 'extract zip file',
-    generateStateData: 'generate JSON data for each US state in PPP file'
+    generateStateData: 'generate JSON data for each US state in PPP file',
+    generateStateCSV: 'generate CSV data for each US state of JSON generated'
 }

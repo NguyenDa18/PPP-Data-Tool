@@ -8,6 +8,10 @@
 ## Using Tool
 - `npm i` : Install dependencies first
 - `npm start` : Start CLI tool
+- Make sure following dirs are in the data dir:
+    - csv
+    - json
+    - raw
 - Pick option for operation to do
 
 ## DONE
@@ -15,6 +19,7 @@
 - download zip by url
 - extract zip and save to data repo
 - parse CSV and generate JSON for PPP files of bailous > 150k
+- parse CSVs and generate JSON files for PPP files of bailouts > 150k
 
 ## TODO
 - parse CSVs and generate JSON files for PPP files of bailouts < 150k
