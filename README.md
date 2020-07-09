@@ -1,6 +1,10 @@
 # PPP Data Tool
 - Tool to read PPP CSVs and generate JSON
 
+[Table of PPP loans exceeding 150k](https://airtable.com/shrGClwklrHvQ1LZy)
+    - big datasets for a state had to be split to multiple views
+- Table of PPP loans < 150k : coming soon
+
 ![Image of Simple CLI Tool](https://res.cloudinary.com/dnguyen/image/upload/v1594193917/code-projects/Git/ppp-tool-image_brl15y.png)
 
 ![Image of Simple CLI generating data for US States](https://res.cloudinary.com/dnguyen/image/upload/v1594246304/code-projects/Git/states_jonjcc.png)
