@@ -14,6 +14,10 @@
     - raw
 - Pick option for operation to do
 
+## Loading to Airtable
+- Following CSV files exceed 5MB : CA, FL, IL, NY, TX
+- Split the files using split-data/split.py and use those to upload
+
 ## DONE
 - CLI tool basics
 - download zip by url
